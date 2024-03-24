@@ -1,0 +1,63 @@
+
+Pseudocode of bubble sort
+
+step 1 start
+
+step 2 take a input n
+
+step 3 for i from 0 to n-1;
+         
+         for j from 0 to n-i-1;
+
+            if arr[j] > arr[j + 1];
+                
+                swap arr[j]  and arr[j+1]
+
+step 4 return arr
+
+step 5 End
+
+
+Flowchart of bubble sort
+
+               start
+                 |
+           n = length of arr      
+                 |
+           for i from 0 to n-1
+                 |
+           for j from 0 to n-i-1
+                 |
+           if arr[j] > arr[j+1]
+                 |
+           swap arr[j] and arr[j+1]
+                 |
+                End     
+
+   Dry Run Example
+
+   array[5,2,9,3,7]
+
+   iteration 1:
+           
+           compare (5,2),(5,9),(9,3),(9,7)
+
+           swap if first element is greater
+
+           after iteration [2,5,3,7,9]
+
+    iteration 2:
+
+        compare (2,5),(5,3),(5,7)
+
+        swap (5,3)
+
+        after iteration [2,3,5,7,9]
+
+    iteration 3:
+
+        compare (2,3),(3,5)
+
+        no swap needed
+
+        sorted array [2,3,5,7,9]    
